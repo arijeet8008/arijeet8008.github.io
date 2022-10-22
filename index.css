@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    width: 90%;
+} */
+
+#s1-navbar{
+    width: 95%;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    color: white;
+    background-color: black;
+}
+
+#navbar-right{
+    display: flex;
+    gap: 50px;
+}
+
+#s2-information{
+    display: flex;
+    justify-content: space-around;
+}
