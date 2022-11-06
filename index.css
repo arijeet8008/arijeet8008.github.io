@@ -167,3 +167,8 @@
     border-color: white;
     border-radius: 5px;
 }
+#s5-git{
+    width: 98%;
+    border: 1px solid red;
+    margin: auto;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "html-githubpages-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arijeet8008/arijeet8008.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arijeet8008/arijeet8008.github.io/issues"
+  },
+  "homepage": "https://github.com/arijeet8008/arijeet8008.github.io#readme",
+  "dependencies": {
+    "react-github-calendar": "^3.3.4",
+    "react-tooltip": "^4.4.3"
+  }
+}
