@@ -3,31 +3,33 @@
     padding: 0;
 }
 
-/* body{ */
-    /* width: 90%; */
-    /* background-color: #181818; */
-/* } */
+#main{
+    width: 100%;
+    margin: auto;
+}
 
 #s1-navbar{
-    width: 95%;
+    width: 97%;
     /* border: 1px solid red; */
+    position:fixed;
     margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 5px 20px;
-    color: white;
     background-color: black;
+    color: white;
 }
-
+#s1-navbar a{
+    text-decoration: none;
+    color: white;
+}
 #navbar-right{
     display: flex;
     gap: 50px;
 }
 
 #s2-information{   
-    /* margin-top: 30px; */
     padding: 50px 0px;
-    width:98%;
     /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
@@ -51,8 +53,6 @@
     text-align: center;
     margin: auto;
     /* border: 2px solid crimson; */
-    width: 98%;
-    /* margin-top: 30px; */
     padding: 30px 0px;
     color: white;
     background-color: #042547;
@@ -81,11 +81,9 @@
 }
 #s4-projects{
     /* border: 3px solid blue; */
-    width:98%;
     margin: auto;
     color: white;
     background-color:#6335a0;
-    margin-top: -20px;
     padding: 10px 0px;
 }
 #s4-title{
@@ -106,7 +104,6 @@
 #s4-description{
     /* border: 1px solid teal; */
     display: flex;
-    /* gap: 200px; */
     padding: 10px 100px;
     gap: 120px;
     text-align: center;
@@ -167,8 +164,38 @@
     border-color: white;
     border-radius: 5px;
 }
-#s5-git{
-    width: 98%;
-    border: 1px solid red;
+#s6-contact{
+    text-align: center;
+    /* border: 2px solid rgb(0, 255, 13); */
+    padding-top: 10px;
+    color: white;
+    background-color: #042547;
+}
+#s6_1{
+    /* border: 1px solid #042547; */
+    width: 50%;
     margin: auto;
+}
+#email,#phone{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 50%;
+    margin: auto;
+}
+#s6_1 p{
+    font-size: 20px;
+    font-weight:500;
+}
+#s6_2{
+    width: 50%;
+    margin: auto;
+}
+#s6_2 img{
+    width: 50px;
+}
+#s6_2 img:hover{
+    background-color:thistle;
+    border-radius: 10px;
 }
