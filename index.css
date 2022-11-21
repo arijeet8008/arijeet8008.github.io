@@ -63,7 +63,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
-    gap: 10px;
+    gap: 15px 10px;
     /* border: 1px solid violet; */
     width: 30%;
     margin-bottom: 30px;
@@ -73,6 +73,8 @@
     height: 80px;
     margin: auto;
     border-radius: 20px;
+    background-color: rgb(227, 236, 243);
+    padding: 5px;
 }
 #s3-logos>img:hover{
     background-color:antiquewhite;
