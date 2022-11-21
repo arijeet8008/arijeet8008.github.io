@@ -74,10 +74,9 @@
     margin: auto;
     border-radius: 20px;
     background-color: rgb(227, 236, 243);
-    padding: 5px;
 }
 #s3-logos>img:hover{
-    background-color:antiquewhite;
+    background-color:rgba(165, 159, 154, 0.973);
     border: 1px solid;
     border-radius: 20px;
 }
