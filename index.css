@@ -235,7 +235,7 @@
         margin: auto;
     }
     #s2-information,#s3-skills,#s4-projects,#s5-git,#s6-contact{
-        width: 350%;
+        width: 250%;
         margin: auto;
         /* border: 2px solid red; */
     } 
