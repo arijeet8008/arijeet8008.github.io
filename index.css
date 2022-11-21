@@ -199,3 +199,43 @@
     background-color:thistle;
     border-radius: 10px;
 }
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        margin: auto;
+    }
+    main {
+        width: 100%;
+        margin: auto;
+    }
+    #s2-information,#s3-skills,#s4-projects,#s5-git,#s6-contact{
+        width: 150%;
+        margin: auto;
+        /* border: 2px solid red; */
+    } 
+    
+  }
+
+  @media all and (min-width: 320px) and (max-width: 767px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        margin: auto;
+    }
+    main {
+        width: 100%;
+        margin: auto;
+    }
+    #s2-information,#s3-skills,#s4-projects,#s5-git,#s6-contact{
+        width: 350%;
+        margin: auto;
+        /* border: 2px solid red; */
+    } 
+  }
