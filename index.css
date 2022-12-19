@@ -252,13 +252,13 @@
         color: white;
     }
     #s1-navbar h2{
-        font-weight: 5;
-        font-size:13px;
+        font-weight: 10;
+        font-size:25px;
         font-family: 'Times New Roman', Times, serif;
     }
     #navbar-right{
         display: flex;
-        gap: 5px;
+        gap: 10px;
         padding: 0px 40px;
     }
     
@@ -283,7 +283,7 @@
         margin: auto;
         text-align: center;
         /* border: 1px solid blue; */
-        font-size: 70%;
+        font-size: 15px;
     }
     #s3-skills{
         /* border: 2px solid crimson; */
@@ -293,8 +293,8 @@
         width: fit-content;
     }
     #s3-logos>img{
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
     }
     #s4-description{
         display: block;
@@ -306,7 +306,7 @@
         width: 100%;
     }
     #s4-info{
-        margin-bottom: 65px;
+        margin-bottom: 5px;
     }
     #s4-d1_1{
         /* border: 1px solid hotpink; */
