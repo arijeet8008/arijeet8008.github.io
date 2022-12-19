@@ -259,4 +259,21 @@
         margin: auto;
         /* border: 2px solid red; */
     } 
+    /* #s4-info{
+        height: 75px;
+    } */
+    #ts{
+        width: 100px;
+    }
+    #s4-d1_1{   
+        display: flex;
+        text-align: center;
+        /* border: 1px solid red; */
+        width: 70%;
+        margin: auto;
+        gap: 0px 15px;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: center;
+    }
   }
