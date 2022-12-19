@@ -161,6 +161,7 @@
 }
 #ts{
     width: 100px;
+    height: 20px;
     border-radius: 5px;
     border: 2px solid salmon;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
