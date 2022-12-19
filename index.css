@@ -229,7 +229,7 @@
         width: 100%;
         margin: auto;
     }
-    main {
+    #main {
         width: 100%;
         margin: auto;
     }
@@ -247,36 +247,113 @@
         padding: 0;
     }
     body{
+        width: 80%;
+        margin: auto;
+        /* border: 10px solid red; */
+    }
+    #main {
         width: 100%;
         margin: auto;
+        /* border: 5px solid lawngreen; */
     }
-    main {
-        width: 100%;
+    #s1-navbar{
+        width: fit-content;
+        height:35px;
+        /* border: 1px solid red; */
+        position:fixed;
         margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        color: white;
     }
+    #s1-navbar a{
+        text-decoration: none;
+        color: white;
+    }
+    #s1-navbar h2{
+        font-weight: 5;
+        font-size:13px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #navbar-right{
+        display: flex;
+        gap: 5px;
+    }
+    
     #s2-information,#s3-skills,#s4-projects,#s5-git,#s6-contact{
-        width: 250%;
+        width: auto;
         margin: auto;
         /* border: 2px solid red; */
     } 
-    /* #s4-info{
-        height: 75px;
-    } */
-    #ts{
-        width: 100px;
-    }
-    #s4-d1_1{   
-        display: flex;
-        text-align: center;
-        /* border: 1px solid red; */
-        width: 70%;
+    #s2-information{   
+        /* border: 1px solid blue; */
+        width: fit-content;
         margin: auto;
-        gap: 0px 15px;
-        align-items: center;
-        margin-top: 20px;
-        justify-content: center;
+        display: block;
+        background-color:#6335a0;
+        color:white;
+    }
+    #profile_photo,#description{
+        margin-left: 12.5%;
+    }
+    #description{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        /* border: 1px solid blue; */
+        font-size: 70%;
+    }
+    #s3-skills{
+        /* border: 2px solid crimson; */
+        margin: auto;
+    }
+    #s3-logos{
+        width: fit-content;
+    }
+    #s3-logos>img{
+        width: 50px;
+        height: 50px;
+    }
+    #s4-description{
+        display: block;
+    }
+    .s4-allprojects{
+        padding: 10px 0px;
+    }
+    #s4-projects_img>img{
+        width: 100%;
     }
     #s4-info{
-        margin-bottom: 10px;
+        margin-bottom: 65px;
+    }
+    #s4-d1_1{
+        /* border: 1px solid hotpink; */
+        width: 95%;
+        display: flex;
+        gap: 0px 5px;
+    }
+    #s4-d1_1 p{
+        font-size: 15px;
+    }
+    .js-calendar-graph-svg{
+        width: 75%;
+    }
+    #s6_1{
+       width: fit-content; 
+       /* border: 1px solid red; */
+    }
+    #s6_1 p{
+        font-size:15px;
+    }
+    #s6_1 img{
+        width: 40px;
+    }
+    #email,#phone{
+        /* border: 2px solid yellow; */
+        width: 100%;
+        display: flex;
+        gap: 5px;
     }
   }
