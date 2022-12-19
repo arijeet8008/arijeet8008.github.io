@@ -257,7 +257,7 @@
         /* border: 5px solid lawngreen; */
     }
     #s1-navbar{
-        width: 100%;
+        width:100%;
         height:35px;
         /* border: 1px solid red; */
         position:fixed;
@@ -280,6 +280,7 @@
     #navbar-right{
         display: flex;
         gap: 5px;
+        padding: 0px 40px;
     }
     
     #s2-information,#s3-skills,#s4-projects,#s5-git,#s6-contact{
@@ -296,7 +297,7 @@
         color:white;
     }
     #profile_photo,#description{
-        margin-left: 12.5%;
+       text-align: center;
     }
     #description{
         width: 100%;
